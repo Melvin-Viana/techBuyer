@@ -8,3 +8,4 @@ Issues:
   - https://stackoverflow.com/questions/34959038/npm-stuck-giving-the-same-error-eisdir-illegal-operation-on-a-directory-read-a
 3. Expo maintains ~6 months compatability.
   - https://docs.expo.dev/workflow/upgrading-expo-sdk-walkthrough/
+  - ``` expo-cli upgrade``` to update expo go project
