@@ -6,3 +6,5 @@ Issues:
 2. Issues with accessing folders with import/export i.e.(import {...} from '../constants').  EISDIR: Illegal operation on a directory.
   - Either folder doesn't exist or the user doesn't have the right permissions.
   - https://stackoverflow.com/questions/34959038/npm-stuck-giving-the-same-error-eisdir-illegal-operation-on-a-directory-read-a
+3. Expo maintains ~6 months compatability.
+  - https://docs.expo.dev/workflow/upgrading-expo-sdk-walkthrough/
