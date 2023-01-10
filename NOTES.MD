@@ -9,3 +9,7 @@ Issues:
 3. Expo maintains ~6 months compatability.
   - https://docs.expo.dev/workflow/upgrading-expo-sdk-walkthrough/
   - ``` expo-cli upgrade``` to update expo go project
+4. Using iphone and expo go together, has problems with loading onto phone.
+  - npm start -- --tunnel
+  - And use the latest npm
+  - Install with ```nvm install --lts```
