@@ -1,4 +1,4 @@
-Issues:
+## Issues:
 
 1. Had issues showing the Reload outside of the React Native entry point (App.js).
   - Must be in a WSL directory not on the local machine
@@ -9,3 +9,6 @@ Issues:
 3. Expo maintains ~6 months compatability.
   - https://docs.expo.dev/workflow/upgrading-expo-sdk-walkthrough/
   - ``` expo-cli upgrade``` to update expo go project
+
+## New Discoveries
+- FlatList component it renders items when they are about to appear, lowering memory usage. "Lazy Loading"
