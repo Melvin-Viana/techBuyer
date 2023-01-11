@@ -9,6 +9,9 @@
 3. Expo maintains ~6 months compatability.
   - https://docs.expo.dev/workflow/upgrading-expo-sdk-walkthrough/
   - ``` expo-cli upgrade``` to update expo go project
+4. Statusbar issues on ios
+  - StatusBar componenet is not supported on ios
+  - Need a workaround for this
 
 ## New Discoveries
 - FlatList component it renders items when they are about to appear, lowering memory usage. "Lazy Loading"
@@ -16,3 +19,10 @@
   - npm start -- --tunnel
   - And use the latest npm
   - Install with ```nvm install --lts```
+
+## Notes
+- Data is hardcoded at the moment
+This is may be a good site to use to gather NFT data:
+  - https://www.quicknode.com/nft-api?utm_term=nft%20apis&utm_campaign=Product+%7C+NFT+API&utm_source=google&utm_medium=cpc&hsa_acc=1365030395&hsa_cam=15870075777&hsa_grp=132563119335&hsa_ad=574877317357&hsa_src=g&hsa_tgt=kwd-1846324076527&hsa_kw=nft%20apis&hsa_mt=p&hsa_net=adwords&hsa_ver=3
+  -TODO: Research sites where you can gather NFT data and purchase places
+- Integrating Stripe maybe another thing to add onto this project
