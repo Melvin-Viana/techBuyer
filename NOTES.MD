@@ -12,3 +12,7 @@
 
 ## New Discoveries
 - FlatList component it renders items when they are about to appear, lowering memory usage. "Lazy Loading"
+4. Using iphone and expo go together, has problems with loading onto phone.
+  - npm start -- --tunnel
+  - And use the latest npm
+  - Install with ```nvm install --lts```
