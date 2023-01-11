@@ -15,11 +15,12 @@
 
 ## New Discoveries
 - FlatList component it renders items when they are about to appear, lowering memory usage. "Lazy Loading"
-4. Using iphone and expo go together, has problems with loading onto phone.
+1. Using iphone and expo go together, has problems with loading onto phone.
   - npm start -- --tunnel
   - And use the latest npm
   - Install with ```nvm install --lts```
-
+1. Statusbar issue:
+  - Use SafeAreaProvider from 'react-native-safe-area-context' package
 ## Notes
 - Data is hardcoded at the moment
 This is may be a good site to use to gather NFT data:
